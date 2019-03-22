@@ -10,6 +10,27 @@
 
     <title>Student Success Festival</title>
     <style>
+        body {
+            background-image: url("media/Slide1.PNG");
+            background-size: cover;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 1px;
+            grid-row-gap: 1px;
+            justify-items: stretch;
+            align-items: stretch;
+        }
+
+        .grid-container div {
+            height: calc(50vh - (3*1px));
+            /* full height minus the row gap space */
+            border: 1px dotted black;
+        }
+
     </style>
 
     <script>
@@ -18,7 +39,59 @@
 </head>
 
 <body>
+    <!--
+list of attractions:
+Monday 25th:
+Powerwall
+Balloon Bridge
+Puptastic Paw Patrol
+Pom Poms and Puzzles
+MDX SU
+Ticket Booth (Free Gift Bags!)
+Hoopla
+Ginger Nut Challenege
+Hot Shot Monkey Madness
+Macmillan Books
+Scooby Doo Challenge
+Sports and Recreation
+Master's Puzzle
+Wheel of Fortune
+Culture Snap!
+Did You Know?
+Smoothie Station
+Table Talk Adventures
 
+
+Tuesday 26th March
+Powerwall
+Balloon Bridge
+Puptastic Paw Patrol
+Pom Poms and Puzzles
+MDX SU
+Ticket Booth (Free Gift Bags!)
+Hoopla
+Ginger Nut Challenege
+Hot Shot Monkey Madness
+Macmillan Books
+Scooby Doo Challenge
+SLAs
+Hook a Duck
+Culture Snap!
+Did You Know?
+Smoothie Station
+Speed Meet
+-->
+
+    <div class="grid-container">
+        <div>
+            <img src="media/logo.png" width="100%">
+        </div>
+        <div>Test 2</div>
+        <div>THE GAMES GOES HERE</div>
+        <div>Test 4</div>
+        <div>Test 5</div>
+        <div>AMAZON VOUCHER PRIZE FOR BEST WINNER</div>
+    </div>
 
 </body>
 
